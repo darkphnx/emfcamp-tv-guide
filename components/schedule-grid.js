@@ -102,7 +102,7 @@ export default function ScheduleGrid({ events }) {
   }
 
   return (
-    <div style={gridStyle} className="items-stretch justify-items-stretch w-max bg-sky-100">
+    <div style={gridStyle} className="items-stretch justify-items-stretch w-max bg-sky-100 border-b-2 border-dashed border-sky-500">
       {venues.map((venue) => <VenueName venue={venue} />)}
       {scheduleHours.map((hour) => <HourName hour={hour} />)}
       {events.map((event) => <EventPosition {...event}><EventCard {...event} /></EventPosition>)}
