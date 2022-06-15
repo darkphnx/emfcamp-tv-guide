@@ -7,7 +7,7 @@ import FilterOptions from '../components/filter-options'
 import { useEffect, useState } from 'react'
 
 const SCHEDULE_URL = 'https://www.emfcamp.org/schedule/2022.json'
-const OFFICIAL_VENUES = ['Stage A', 'Stage B', 'Stage C', 'Workshop 1', 'Workshop 2', 'Workshop 3', 'Workshop 4', 'Workshop 5']
+const OFFICIAL_VENUES = ['Stage A', 'Stage B', 'Stage C', 'Workshop 1', 'Workshop 2', 'Workshop 3', 'Workshop 4', 'Workshop 5', 'Youth Workshop']
 const OFFICIAL_START_DATE = new Date(2022, 5, 3)
 
 export default function Home() {
